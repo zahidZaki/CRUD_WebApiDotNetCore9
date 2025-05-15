@@ -1,6 +1,40 @@
-@WebApiDotNetCore9_HostAddress = http://localhost:5109
+﻿@baseUrl = http://localhost:5109
 
-GET {{WebApiDotNetCore9_HostAddress}}/weatherforecast/
+### ✅ Get Weather Forecast
+GET {{baseUrl}}/weatherforecast
 Accept: application/json
 
-###
+### ✅ Get All Video Games
+GET {{baseUrl}}/api/VideoGame/GetAllVideoGame
+Accept: application/json
+
+### ✅ Get Single Video Game by Id
+GET {{baseUrl}}/api/VideoGame/GetVideoGameById?id=2
+Accept: application/json
+
+### ✅ Create a New Video Game
+POST {{baseUrl}}/api/VideoGame/CreateNewGame
+Content-Type: application/json
+
+{
+  "title": "God of War Ragnarok",
+  "platform": "PS5",
+  "developer": "Santa Monica Studio",
+  "publisher": "Sony Interactive Entertainment"
+}
+
+### ✅ Update Existing Video Game
+PUT {{baseUrl}}/api/VideoGame/UpdateGame?id=1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "God of War Ragnarok (Updated)",
+  "platform": "PS5",
+  "developer": "Santa Monica Studio",
+  "publisher": "Sony Interactive Entertainment"
+}
+
+### ✅ Delete Video Game
+DELETE {{baseUrl}}/api/VideoGame/DeleteGame?id=1
+Accept: application/json

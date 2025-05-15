@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDotNetCore9", "WebApiDotNetCore9.csproj", "{FA836B83-E855-411E-9E62-D7C1B124FB6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDotNetCore9WithJwtToken", "..\WebApiDotNetCore9WithJwtToken\WebApiDotNetCore9WithJwtToken.csproj", "{76F3017E-EAA4-4632-BD2C-426816B5AA0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FA836B83-E855-411E-9E62-D7C1B124FB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA836B83-E855-411E-9E62-D7C1B124FB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA836B83-E855-411E-9E62-D7C1B124FB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F3017E-EAA4-4632-BD2C-426816B5AA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F3017E-EAA4-4632-BD2C-426816B5AA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F3017E-EAA4-4632-BD2C-426816B5AA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F3017E-EAA4-4632-BD2C-426816B5AA0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
